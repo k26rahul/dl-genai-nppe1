@@ -42,8 +42,7 @@ Given a dataset of 51,043 labeled chest X-ray images, classify each image into o
 ```
 dl-genai-nppe1/
 │
-├── main-rahul.ipynb          # Rahul's full training notebook (run on Kaggle)
-├── main-vidu.ipynb           # Vidu's full training notebook (run on Kaggle)
+├── main.ipynb                # Full training notebook (run on Kaggle)
 ├── problem-statement.pdf     # Officially released competition problem statement
 │
 ├── data/
@@ -54,15 +53,17 @@ dl-genai-nppe1/
 ├── checkpoints/
 │   └── best_model.pth        # Best saved model checkpoint (~87 MB)
 │
-└── reports/
-    ├── rahul/
-    │   ├── 23f1002653_report.md      # Rahul's detailed project report
-    │   ├── 23f1002653_code.md        # Rahul's full notebook code (markdown export)
-    │   └── x-ray-rahul-notebook.pdf  # Rahul's notebook exported as PDF
-    └── vidu/
-        ├── 23f2000575_report.md      # Vidu's detailed project report
-        ├── 23f2000575_code.md        # Vidu's full notebook code (markdown export)
-        └── x-ray-vidu-notebook.pdf   # Vidu's notebook exported as PDF
+├── reports/
+│   ├── 23f1002653_report.md  # Detailed project report
+│   ├── 23f1002653_code.md    # Full notebook code (markdown export)
+│   └── x-ray-rahul-notebook.pdf # Notebook exported as PDF
+│
+└── archive/
+    ├── main-vidu.ipynb       # Vidu's full training notebook
+    └── vidu-reports/
+        ├── 23f2000575_report.md     # Vidu's detailed project report
+        ├── 23f2000575_code.md       # Vidu's full notebook code (markdown export)
+        └── x-ray-vidu-notebook.pdf  # Vidu's notebook exported as PDF
 ```
 
 > **Note:** The `data/images/` directory (68k+ X-ray PNG files) is not tracked in this repository due to size. It is available via the Kaggle competition dataset.
