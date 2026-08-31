@@ -46,6 +46,7 @@ dl-genai-nppe1/
 ├── problem-statement.pdf     # Officially released competition problem statement
 │
 ├── data/
+│   ├── images/               # 68k+ chest X-ray images (untracked)
 │   ├── train.csv             # Training labels in one-hot encoded format (51,043 rows)
 │   ├── test.csv              # Test image IDs for inference (17,015 rows)
 │   └── sample_submission.csv # Submission format reference
