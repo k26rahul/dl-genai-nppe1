@@ -58,12 +58,18 @@ dl-genai-nppe1/
 │   ├── 23f1002653_code.md    # Full notebook code (markdown export)
 │   └── x-ray-rahul-notebook.pdf # Notebook exported as PDF
 │
-└── archive/
-    ├── main-vidu.ipynb       # Vidu's full training notebook
-    └── vidu-reports/
-        ├── 23f2000575_report.md     # Vidu's detailed project report
-        ├── 23f2000575_code.md       # Vidu's full notebook code (markdown export)
-        └── x-ray-vidu-notebook.pdf  # Vidu's notebook exported as PDF
+└── archive/                  # Archived notebooks and reports
+```
+
+### Archive
+
+```
+archive/
+├── main-vidu.ipynb           # Vidu's full training notebook
+└── vidu-reports/
+    ├── 23f2000575_report.md     # Detailed project report
+    ├── 23f2000575_code.md       # Notebook code (markdown export)
+    └── x-ray-vidu-notebook.pdf  # Notebook exported as PDF
 ```
 
 > **Note:** The `data/images/` directory (68k+ X-ray PNG files) is not tracked in this repository due to size. It is available via the Kaggle competition dataset.
